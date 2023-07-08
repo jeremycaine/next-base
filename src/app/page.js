@@ -1,9 +1,17 @@
 import Image from 'next/image'
 import styles from './page.module.scss'
+import Button from "@/components/Button/Button";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <div>
+      Landing Page
+    </div>
+  )
+}
+
+
+/*   <main className={styles.main}>
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
@@ -91,5 +99,4 @@ export default function Home() {
         </a>
       </div>
     </main>
-  )
-}
+    */
