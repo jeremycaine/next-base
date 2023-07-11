@@ -23,9 +23,6 @@ import {
 import Link from 'next/link';
 
 const TutorialHeader = () => (
-  <div>
-    Tutorial Header
-
     <HeaderContainer
       render={({ isSideNavExpanded, onClickSideNavExpand }) => (
         <Header aria-label="Carbon Tutorial">
@@ -39,8 +36,8 @@ const TutorialHeader = () => (
             <HeaderName prefix="IBM">
               Carbon Tutorial
             </HeaderName>
-            </Link>
-            <HeaderNavigation aria-label="Carbon Tutorial">
+          </Link>     
+           <HeaderNavigation aria-label="Carbon Tutorial">
               <Link href="/repos" passHref legacyBehavior>
                 <HeaderMenuItem >
                   Repositories
@@ -79,7 +76,6 @@ const TutorialHeader = () => (
         </Header>
       )}
     />
-  </div>
 );
 
 export default TutorialHeader;
